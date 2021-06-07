@@ -1,0 +1,72 @@
+@media screen and (max-width:1200px){
+.about_footer{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    float: left;
+}
+.second_block_footer .menulinks{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    float: left;
+}
+.about_footer .copy_right{
+    width: 100%;
+}
+.about_footer .copy_right p {
+    font-size: 16px;
+    margin-top:10px;
+    padding: 10px;
+    float: none;
+    text-align: center;
+}
+.brand_ftr_logo{
+    text-align: center;
+}
+.brand_ftr_logo h2{
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.brand_ftr_logo h2 img{
+    width: 30%;
+}
+.social-links {
+    text-align: center;
+}
+.second_block_footer .menulinks ul li{
+    padding: 12px;
+}
+}
+@media screen and (min-width:576px) and (max-width:1200px){
+.brand_ftr_logo{
+    width: 50%;
+}
+
+.ftr_social_links{
+    float: left;
+    width: 50%;
+    margin-top:2%;
+    margin-bottom: 5px;
+}
+.social-links {
+    text-align: center;
+}
+}
+
+@media screen and (max-width:575.98px){
+/*****footer css ****/
+.brand_ftr_logo{
+    width: 100%;
+    float: none;
+    padding: 3%;
+}
+
+.ftr_social_links{
+    float: none;
+    width: 100%;
+    margin-top:5px;
+    padding-bottom: 5px;
+}
+}
+
